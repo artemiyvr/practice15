@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/breedEditText"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:hint="Порода" />
+
+    <EditText
+        android:id="@+id/birthYearEditText"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:hint="Год рождения" />
+
+    <EditText
+        android:id="@+id/birthMonthEditText"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:hint="Месяц рождения" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:text="Отправить" />
+
+</LinearLayout>
